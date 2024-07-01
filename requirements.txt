@@ -2,7 +2,7 @@ streamlit
 numpy
 pandas
 plotly
-MinMaxScaler
+scikit-learn
 json
 http.client
 requests
