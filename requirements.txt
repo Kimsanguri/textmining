@@ -1,9 +1,8 @@
 streamlit
-numpy
-pandas
+numpy==1.23.0
+pandas==1.4.3
 plotly
 scikit-learn
-json
 http.client
 requests
 PdfReader
