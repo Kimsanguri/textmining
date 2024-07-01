@@ -1,10 +1,7 @@
 streamlit
-numpy==1.23.0
-pandas==1.4.3
+pandas
 plotly
 scikit-learn
-http.client
 requests
-PdfReader
-BytesIO
-BeautifulSoup
+PyPDF2
+beautifulsoup4
