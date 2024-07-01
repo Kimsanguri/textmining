@@ -4,12 +4,12 @@ import plotly.express as px
 from sklearn.preprocessing import MinMaxScaler
 
 
-raw_df = pd.read_csv('/raw_극성사전.csv')
-tone_rate_df = pd.read_csv('/어조금리분석.csv')
-hawk_df = pd.read_csv("/hawk2.csv")
-dove_df = pd.read_csv("/dove2.csv")
-call_report_url_df = pd.read_csv('/call_reports_url.csv')
-call_news_df = pd.read_csv('/call_news.csv')
+raw_df = pd.read_csv('raw_극성사전.csv')
+tone_rate_df = pd.read_csv('어조금리분석.csv')
+hawk_df = pd.read_csv("hawk2.csv")
+dove_df = pd.read_csv("dove2.csv")
+call_report_url_df = pd.read_csv('call_reports_url.csv')
+call_news_df = pd.read_csv('call_news.csv')
 
 
 tone_rate_df['date'] = pd.to_datetime(tone_rate_df['date'], format='%Y-%m-%d')
