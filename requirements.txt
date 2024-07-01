@@ -1,4 +1,11 @@
 streamlit
+numpy
 pandas
 plotly
-scikit-learn
+MinMaxScaler
+json
+http.client
+requests
+PdfReader
+BytesIO
+BeautifulSoup
